@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="flex py-5 px-8">
+    <header className="flex py-5 px-8 md:justify-center">
       <div className="flex py-5 gap-2 border-b border-b-[#E4E4E4]">
         <Link href="/" className="flex justify-between items-center gap-2 z-10">
           <Image src="/logo.png" height="30" width="30" alt="Logo Greenate" />

@@ -8,7 +8,7 @@ export default function PriceRange() {
   const [price, setPrice] = useState([100]);
 
   return (
-    <div className="flex items-center gap-3 mt-10">
+    <div className="flex items-center justify-center gap-3 mt-10">
       <input type="text" value="$ 1.00" readOnly className="h-11 w-20 rounded-md border border-gray-300 bg-white text-center text-gray-500 outline-none" />
 
       <div className="w-40">
