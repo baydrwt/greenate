@@ -1,14 +1,20 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Baloo_Bhai_2, Barrio, Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const baloo = Baloo_Bhai_2({
   subsets: ["latin"],
+  variable: "--font-baloo",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const barrio = Barrio({
   subsets: ["latin"],
+  variable: "--font-barrio",
+  weight: "400",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
 });
 
 export const metadata = {
@@ -18,11 +24,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${baloo.variable} ${barrio.variable} ${inter.variable} h-full antialiased`}>
+      <body className="flex flex-col overflow-x-hidden">
+        <div className="">{children}</div>
+      </body>
     </html>
   );
 }
