@@ -26,7 +26,7 @@ export default function CustomCarousel() {
       <Carousel setApi={setApi}>
         <CarouselContent>
           <CarouselItem className="flex justify-center">
-            <div className="bg-[url('/bg-hero.png')] bg-no-repeat bg-cover md:h-[850px] rounded-[50px] bg-position-[50%_90%]">
+            <div className="bg-[url('/bg-hero.webp')] bg-no-repeat bg-cover md:h-[850px] rounded-[50px] bg-position-[50%_90%]">
               <div className="h-full w-full bg-linear-to-t from-[rgba(0,0,0,1)] to-[rgba(0,0,0,0)] rounded-[50px] flex justify-end flex-col items-center py-28 px-3">
                 <h1 className="relative text-[#F0EADF] text-[2rem] md:text-[5.5rem] uppercase md:w-1/2 text-center leading-none font-barrio z-10">
                   <span className="absolute top-[20%] left-[-2%] md:w-[360px] h-[50px] bg-[#67874E] rotate-[-1.6deg] z-[-1]"></span>
@@ -39,7 +39,7 @@ export default function CustomCarousel() {
             </div>
           </CarouselItem>
           <CarouselItem className="flex justify-center">
-            <div className="bg-[url('/bg-hero.png')] bg-no-repeat bg-cover md:h-[850px] rounded-[50px] bg-position-[50%_90%]">
+            <div className="bg-[url('/bg-hero.webp')] bg-no-repeat bg-cover md:h-[850px] rounded-[50px] bg-position-[50%_90%]">
               <div className="h-full w-full bg-linear-to-t from-[rgba(0,0,0,1)] to-[rgba(0,0,0,0)] rounded-[50px] flex justify-end flex-col items-center py-28 px-3">
                 <h1 className="relative text-[#F0EADF] text-[2rem] md:text-[5.5rem] uppercase md:w-1/2 text-center leading-none font-barrio z-10">
                   <span className="absolute top-[20%] left-[-2%] md:w-[360px] h-[50px] bg-[#67874E] rotate-[-1.6deg] z-[-1]"></span>
@@ -52,7 +52,7 @@ export default function CustomCarousel() {
             </div>
           </CarouselItem>
           <CarouselItem className="flex justify-center">
-            <div className="bg-[url('/bg-hero.png')] bg-no-repeat bg-cover md:h-[850px] rounded-[50px] bg-position-[50%_90%]">
+            <div className="bg-[url('/bg-hero.webp')] bg-no-repeat bg-cover md:h-[850px] rounded-[50px] bg-position-[50%_90%]">
               <div className="h-full w-full bg-linear-to-t from-[rgba(0,0,0,1)] to-[rgba(0,0,0,0)] rounded-[50px] flex justify-end flex-col items-center py-28 px-3">
                 <h1 className="relative text-[#F0EADF] text-[2rem] md:text-[5.5rem] uppercase md:w-1/2 text-center leading-none font-barrio z-10">
                   <span className="absolute top-[20%] left-[-2%] md:w-[360px] h-[50px] bg-[#67874E] rotate-[-1.6deg] z-[-1]"></span>
@@ -64,7 +64,6 @@ export default function CustomCarousel() {
               </div>
             </div>
           </CarouselItem>
-
         </CarouselContent>
         <CarouselDots count={count} current={current} onSelect={(index) => api?.scrollTo(index)} />
       </Carousel>

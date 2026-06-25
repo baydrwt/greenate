@@ -152,6 +152,7 @@ function CarouselPrevious({
 
   return (
     <Button
+      aria-label="dots caraousel"
       data-slot="carousel-previous"
       variant={variant}
       size={size}

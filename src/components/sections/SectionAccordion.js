@@ -15,9 +15,9 @@ function SectionAccordion() {
         <span className="block"> committed to sourcing responsibly, reducing waste, and promoting sustainable farming. Every product we</span> offer is crafted with care—ensuring that what’s good for you is also good for nature.
       </DescriptionText>
       <div className="mt-20 flex flex-col md:flex-row gap-10 justify-between">
-        <div className="bg-[url('/person-cover.png')] bg-cover bg-no-repeat w-full md:w-[650px] h-[400px] overflow-x-clip rounded-2xl relative bg-center">
+        <div className="bg-[url('/person-cover.webp')] bg-cover bg-no-repeat w-full md:w-[650px] h-[400px] overflow-x-clip rounded-2xl relative bg-center">
           <Image
-            src="/person.png"
+            src="/person.webp"
             width="500"
             height="650"
             alt="person"

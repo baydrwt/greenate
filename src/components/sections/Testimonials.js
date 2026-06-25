@@ -6,20 +6,20 @@ const reviews = [
   {
     name: "Paula",
     product_name: "Coconut Palm Sugar",
-    path: "/person-1.png",
+    path: "/person-1.webp",
     message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque excepturi, quia vel aperiam quos odit adipisci consectetur autem nihil cum!",
   },
   {
     name: "David",
     product_name: "Spinach Trottole",
-    path: "/person-2.png",
+    path: "/person-2.webp",
     message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque excepturi, quia vel aperiam quos odit adipisci consectetur autem nihil cum!",
     active: true,
   },
   {
     name: "Diana",
     product_name: "Virgin Coconut Oil",
-    path: "/person-3.png",
+    path: "/person-3.webp",
     message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque excepturi, quia vel aperiam quos odit adipisci consectetur autem nihil cum!",
   },
 ];
